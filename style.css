@@ -1,0 +1,47 @@
+body{
+  background-image: url(images/fon.jpg);
+  -webkit-box-shadow: 0px 0px 4px #090504;
+  -moz-box-shadow: 0px 0px 4px #090504;
+  box-shadow: 0px 0px 4px #090504;
+  margin: 10px;
+    
+}
+ .all {
+    margin: 10px;
+ }
+ 
+ .foto {
+   position: absolute;
+    top: 35px;
+    right: 45px;
+    line-height: 1px;
+ width: 160px;
+ height: 160px;
+ }
+
+ .foto img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+.foto img:hover{
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ }
+ 
+ a {
+   background-color: #4B8BF5;
+   padding: 15px;
+   margin: 15px;
+   border: 7px solid;
+   border-radius: 100px;
+   opacity: 0.6;
+   
+ }
+ 
+ a:hover{
+   
+   opacity: 0.5;
+ }
